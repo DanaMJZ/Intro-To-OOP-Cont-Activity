@@ -54,7 +54,6 @@ def test_display_classes():
     assert display_string == expected_string, f"Expected '{expected_string}', but got '{display_string}'"
 
 
-<<<<<<< HEAD
 # Write your tests here!
 def test_get_num_classes_nominal(self):
     
@@ -63,5 +62,3 @@ def test_get_num_classes_nominal(self):
         count = student.get_num_classes()
         # Assert
         self.assertEqual(count, 3)
-=======
->>>>>>> 2cbf7923f1cc69a22db252a3513cefe93a796366
